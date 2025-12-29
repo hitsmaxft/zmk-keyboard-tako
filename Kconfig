@@ -1,0 +1,7 @@
+# Tako Board Configuration
+
+config TAKO_KSCAN_DRIVER
+    bool "Enable Tako KSCAN driver"
+    default y
+    help
+      Enable the Tako kscan GPIO driver for keyboard matrix scanning.
